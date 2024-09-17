@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: ${postgres_url} # jdbc:postgresql://localhost:5432/your_database_name
+    username: ${postgres_name}
+    password: ${postgres_password}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update # Auto-generates schema changes based on your entity classes
+    show-sql: true # Show SQL queries in the logs
+    properties:
+      hibernate:
+        format_sql: true # Format SQL queries in a readable way
