@@ -3,8 +3,8 @@ spring:
     name: USER-SERVICE
   data:
     mongodb:
-      uri: ${uri}
-      database: ${database}
+      uri: ${mongo_url}
+      database: ${mongo_db}
 server:
   port: 8081
 
