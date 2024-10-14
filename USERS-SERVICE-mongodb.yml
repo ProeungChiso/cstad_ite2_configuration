@@ -1,6 +1,6 @@
 spring:
   application:
-    name: USER-SERVICE
+    name: USERS-SERVICE
   data:
     mongodb:
       uri: ${mongo_url}
