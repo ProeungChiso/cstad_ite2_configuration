@@ -17,3 +17,10 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 5
     leaseExpirationDurationInSeconds: 5
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+
